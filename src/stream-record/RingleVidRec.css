@@ -1,0 +1,149 @@
+h2 {
+  font-weight: 400;
+}
+
+.RingleButton {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+  background: rgb(111, 84, 224);
+  color: rgb(255, 255, 255);
+  width: 160px;
+  height: 40px;
+  margin: 0px 0px 20px 0px;
+  font-weight: 100;
+  box-shadow: 2px 2px 2px rgb(195, 175, 222);
+}
+
+.RingleButtonL {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+  background: rgb(111, 84, 224);
+  color: rgb(255, 255, 255);
+  width: 160px;
+  height: 40px;
+  margin: 0px 0px 20px 0px;
+  font-weight: 100;
+  border-radius: 10px 0px 0px 10px;
+  -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.13);
+  box-shadow: 2px 2px 2px rgb(195, 175, 222);
+}
+
+.RingleButtonD {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+  background: rgb(111, 84, 224);
+  color: rgb(255, 255, 255);
+  width: 160px;
+  height: 40px;
+  margin: 0px 0px 20px 0px;
+  font-weight: 100;
+  opacity: 0.5;
+}
+
+.RingleButtonDL {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+  background: rgb(111, 84, 224);
+  color: rgb(255, 255, 255);
+  width: 160px;
+  height: 40px;
+  margin: 0px 0px 20px 0px;
+  font-weight: 100;
+  opacity: 0.5;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.RingleButtonDR {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+  background: rgb(111, 84, 224);
+  color: rgb(255, 255, 255);
+  width: 160px;
+  height: 40px;
+  margin: 0px 0px 20px 0px;
+  font-weight: 100;
+  opacity: 0.5;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.RingleButtonR {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+  background: rgb(111, 84, 224);
+  color: rgb(255, 255, 255);
+  width: 160px;
+  height: 40px;
+  margin: 0px 0px 20px 0px;
+  font-weight: 100;
+  border-radius: 0px 15px 15px 0px;
+  box-shadow: 2px 2px 2px rgb(195, 175, 222);
+}
+
+.RingleButton:hover {
+  transform: scale(1.05);
+}
+.RingleButtonL:hover {
+  transform: scale(1.05);
+}
+.RingleButtonR:hover {
+  transform: scale(1.05);
+}
+
+.rowC {
+  display: flex;
+  flex-direction: row;
+}
+
+.recBox {
+  background: rgb(240, 237, 250);
+  border-radius: 5%/5%;
+  /* margin: 1em 1em 1em 1em; */
+  padding: 2em 0em 0em 0em;
+  -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.13);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.13);
+}
+
+.recbox video {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: inline-block;
+}
+
+.Center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.timeLabel {
+  position: absolute;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.1);
+  z-index: -100;
+  font-size: 100px;
+  width: 100%;
+  height: 99%;
+  color: white;
+  top: 0;
+  left: 0;
+  opacity: 0.7;
+}
+
+.dark {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: grey;
+}
